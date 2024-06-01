@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica' Helvetica;
+
+}
+body {
+    background-image: url(backr2.jpg);
+    background-size: cover;
+}
+
+/* My header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 100px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; 
+}
+header a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+}
+header a:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.logo {
+    font-size: 3.2em;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    
+}
+.navigation a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    margin: 10px;
+    font-weight: 550;
+    font-size: medium;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    height: 100vh;
+    margin-left: 50px;
+}
+.contact h1{
+    align-items: left;
+    font-size: 70px;
+    font-style: italic;
+    color: white;
+    transition: 0.7s;
+    z-index: 9;
+}
+.contact h1:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent
+}
+.footer {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+/* Footer */
+.footer.show {
+    display: block;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-text {
+    display: inline; 
+
+}
+.footer p {
+    font-style: italic;
+    font-size: large;
+}
+.logo1 {
+    height: 50px;
+    cursor: pointer;
+    padding: 10px;
+}
+.references {
+    text-align: left;
+    margin-left: 20px; 
+}
+
+.references h3 {
+    margin-bottom: 10px;
+}
+
+.references ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.references ul li {
+    margin-bottom: 5px;
+}
+
+.references ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.references ul li a:hover {
+    text-decoration: underline;
+}
+
+

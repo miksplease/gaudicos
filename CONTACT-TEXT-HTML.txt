@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONTACT </title>
+    <link rel="stylesheet" href="CONTACT.css">
+</head>
+<body>
+
+    <header>
+        <h2 class="logo">CG</h2> 
+        <nav class="navigation">
+            <a href="HOME.html"> ABOUT </a>
+            <a href="CONTACT.html"> CONTACTS </a>
+        </nav>
+    </header>
+
+    <div class="contact">
+        <h1> #9641997973 <br> christian.gaudicos@gsfe.tupcavite.ph</h1>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p> Follow Me!</p>
+                <a href="https://www.facebook.com/ian1203"><img src="facebook.png" class="logo1"></a>
+                <a href="https://www.instagram.com/iann.iannn/"><img src="instagram.png" class="logo1"></a>
+            </div>
+            <div class="references">
+                <h3>References:</h3>
+                <ul>
+                    <li><a href="https://images.pexels.com/photos/2300712/pexels-photo-2300712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">https://images.pexels.com/photos/2300712/pexels-photo-2300712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1</a></li>
+                    <li><a href="https://i0.wp.com/imerikamarie.com/wp-content/uploads/2022/05/healthy-reset-routine-1.png?resize=768%2C1152&ssl=1">https://i0.wp.com/imerikamarie.com/wp-content/uploads/2022/05/healthy-reset-routine-1.png?resize=768%2C1152&ssl=1</a></li>
+                    <li><a href="https://i.pinimg.com/736x/55/7d/ff/557dff11f0172f9a6904b4426243eaf9.jpg">https://i.pinimg.com/736x/55/7d/ff/557dff11f0172f9a6904b4426243eaf9.jpg</a></li>
+                    <li><a href="https://wallpapercave.com/wp/wp6555825.jpg">https://wallpapercave.com/wp/wp6555825.jpg</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="HOME.js"> </script>
+
+</body>
+</html>
